@@ -19,10 +19,23 @@ figcaption {
 }
 .project-img {
     display: block;
-    margin: 40px auto 5px auto;
+    margin: auto;
     border-radius: 10px;
     border-color: #222831;
     border-top-style: solid;
+}
+figcaption {
+    text-align: center;
+    font-style: italic;
+    color: #FFD369;
+    padding-bottom: 5px;
+}
+
+.fig-desc,
+ul {
+    color: #EEEEEE;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 p.welcome {
@@ -51,6 +64,7 @@ section {
 }
 .section-header {
     text-align: center;
+    padding-bottom: 50px;
 }
 .yellow-btn {
     background-color: #FFD369;
