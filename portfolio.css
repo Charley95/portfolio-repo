@@ -11,11 +11,15 @@ figcaption {
     color: #EEEEEE;
 }
 .my-first-pic {
-    border-radius: 100px;
+    border-radius: 200px;
     border: 5px solid;
+    
     border-color: #FFD369;
     display: block;
     margin: 30px  auto;
+}
+#section p {
+    text-align: center;
 }
 .project-img {
     display: block;
@@ -29,20 +33,29 @@ figcaption {
     font-style: italic;
     color: #FFD369;
     padding-bottom: 5px;
+    padding-top: 30px;
 }
 
-.fig-desc,
-ul {
+.fig-desc {
     color: #EEEEEE;
     padding-top: 20px;
-    padding-bottom: 40px;
+    line-height: 30px;
+        text-align: center;
+    }
+    
+    ul {
+        color: #EEEEEE;
+        text-align: center;
+        line-height: 30px;
 }
 
 p.welcome {
     color: #FFD369;
+    
 }
 p.description {
     color: #B6BBC4;
+    line-height: 30px;
 }
 
 section {
@@ -64,7 +77,6 @@ section {
 }
 .section-header {
     text-align: center;
-    padding-bottom: 50px;
 }
 .yellow-btn {
     background-color: #FFD369;
