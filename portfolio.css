@@ -21,6 +21,15 @@ figcaption {
 #section p {
     text-align: center;
 }
+a {
+
+    color: #EEEEEE;
+}
+
+a:hover {
+    font-size: 120%;
+    color: #FFD369;
+}
 .project-img {
     display: block;
     margin: auto;
@@ -57,6 +66,22 @@ p.description {
     color: #B6BBC4;
     line-height: 30px;
 }
+.icons {
+    text-align: center;
+    margin: 30px auto 0 auto;
+    width: 100%;
+}
+
+.icons a {
+    text-decoration: none;
+    color: #B6BBC4;
+    padding: 0 15px;
+}
+
+.icons a:hover {
+    font-size: 150%;
+    color: #FFD369;
+}
 
 section {
     padding: 50px 30px;
@@ -74,6 +99,7 @@ section {
 }
 #contact {
     background-color: #222831;
+    color: #B6BBC4;
 }
 .section-header {
     text-align: center;
