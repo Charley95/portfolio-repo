@@ -11,12 +11,14 @@ figcaption {
     color: #EEEEEE;
 }
 .my-first-pic {
-    border-radius: 200px;
+    height: auto;
+        width: 100%;
+        border-radius: 50%;
     border: 5px solid;
-    
     border-color: #FFD369;
     display: block;
     margin: 30px  auto;
+    border-style: double;
 }
 #section p {
     text-align: center;
@@ -31,6 +33,8 @@ a:hover {
     color: #FFD369;
 }
 .project-img {
+    width: 100%;
+        height: auto;
     display: block;
     margin: auto;
     border-radius: 10px;
@@ -54,8 +58,9 @@ figcaption {
     
     ul {
         color: #EEEEEE;
-        text-align: center;
+        text-align: left;
         line-height: 30px;
+        list-style-position: outside;
 }
 
 p.welcome {
@@ -120,4 +125,56 @@ footer {
     background-color: #393E46;
     color: #EEEEEE;
     padding: 15px;
+}
+/* meida query for tablets and iPads*/
+@media (min-width: 480px) {
+    section {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+
+    .my-first-pic {
+        float: right;
+        width: 70%;
+        margin-top: 0;
+    }
+
+}
+
+/* media query for laptops */
+@media (min-width: 768px) {
+    section {
+        padding-right: 15%;
+        padding-left: 15%;
+    }
+
+    .navbar {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .my-first-pic {
+        float: right;
+        width: 50%;
+        margin-left: 5%;
+        margin-top: 0;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 1.6;
+    }
+
+}
+
+/* media query for larger screens */
+@media (min-width: 1024px) {
+    .my-first-pic {
+        width: 30%;
+    }
+
+    .project-img {
+        width: 80%;
+    }
 }
