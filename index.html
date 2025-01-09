@@ -110,14 +110,41 @@
   </section>
 
   <!-- Contact Section -->
-  <section id="contact">
-    <h1 class="section-header">Contact <span style="color: #FFD369;">Me</span></h1>
-    <div class="icons">
-      <a href="ibenyenwachinenye07@gmail.com"><i class="fa-solid fa-envelope fa-3x"></i></a>
-      <a href="https://www.linkedin.com/in/chinenye-ibenyenwa-9b667a168/"><i
-          class="fa-brands fa-linkedin fa-3x"></i></a>
-      <a href="https://github.com/Charley95"><i class="fa-brands fa-github fa-3x"></i></a>
-    </div>
+  <section class="contact-section" id="contact">
+    <div class="contact-intro">
+      <h1 class="section-header">Contact <span style="color: #FFD369;">Me</span></h1>
+      <p class="fig-desc">
+        Fill out the form below and we'll get back to you as soon as possible.
+      </p>
+      </div>
+      
+      <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+      
+        <input type="hidden" name="access_key" value="dc107105-d449-4020-8f31-3ba1559de694">
+        <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms">
+        <input type="hidden" name="from_name" value="My Website">
+        <!-- More custom ization options available in the docs: https://docs.web3forms.com -->
+      
+        <div class="form-group-container">
+          <div class="form-group">
+            <label for="name" class="form-label">Name</label>
+            <input id="name" name="name" class="form-input" placeholder="Your name" type="text">
+          </div>
+          <div class="form-group">
+            <label for="email" class="form-label">Email</label>
+            <input id="email" name="email" class="form-input" placeholder="Your email" type="email">
+          </div>
+          <div class="form-group">
+            <label for="phone" class="form-label">Phone</label>
+            <input id="phone" name="phone" class="form-input" placeholder="+1 (234) 56789" type="text">
+          </div>
+          <div class="form-group">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-textarea" id="message" name="message" placeholder="Your message"></textarea>
+          </div>
+        </div>
+      <button class="form-submit" type="submit">Send Message</button>
+      </form>
   </section>
 
   <footer>&copy; Chinenye Ibenyenwa 2024</footer>
