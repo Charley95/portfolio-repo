@@ -3,7 +3,7 @@
 This is a personal portfolio website built to be responsive across all screen sizes. 
 The user should be able to:
 
-- see the hover states of the elements in the navigation bar and the contact me icons just above the footer.
+- send me an email using the contact form in the contact me section.
 - click on the provided links of the listed projects to see the live site.
 - quickly navigate to a desired section of the website by clicking the required menu element on the navigation bar.
 
