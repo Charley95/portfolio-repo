@@ -30,7 +30,7 @@ Given more time, I will like to:
 This documents all the errors and warnings encountered during the development of this project. I used the [W3C-Validator](https://validator.w3.org/nu/) to scan for structural and syntax errors and found some errors in my html code. I found no errors in my css code after running it in the css code validator. The image below shows the error found in the html code.
 
 
-![error image](<Images/Error image.png>)
+![error image](<assets/Images/Error image.png>)
 
 Looking at the errors in the image above, it was a quick fix for me. 
 
