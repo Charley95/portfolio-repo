@@ -57,6 +57,12 @@ In the last error, at the footer, I terminated the character reference with a se
 <footer>&copy; Chinenye Ibenyenwa 2024</footer>
 ```
 
+
+### Accessibilty Check
+The image below shows a screenshot of the accessibilty report of my website generated using lighthouse.
+
+![Accessibility report image](assets/Images/Accessibility%20check.png)
+
 ### Useful Resources
 
 - [W3Schools](https://www.w3schools.com/)
